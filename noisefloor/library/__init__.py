@@ -9,9 +9,9 @@ from __future__ import annotations
 from typing import Dict, List, Optional
 
 from ..model import Scenario
-from . import cloud, execution, identity
+from . import cloud, execution, identity, mail
 
-_MODULES = (identity, execution, cloud)
+_MODULES = (identity, execution, cloud, mail)
 
 ALL: List[Scenario] = [s for m in _MODULES for s in m.SCENARIOS]
 BY_ID: Dict[str, Scenario] = {s.id: s for s in ALL}

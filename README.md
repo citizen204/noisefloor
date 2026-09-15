@@ -153,7 +153,7 @@ each other, twins disagree — is checked when the package loads and again in CI
 The scenarios are the product. The code is deliberately small so that adding
 one is writing evidence and a ground truth, not writing software.
 
-**Limits.** Six scenarios in three pairs. The evidence is hand-written rather
+**Limits.** Eight scenarios in four pairs. The evidence is hand-written rather
 than generated from a real telemetry capture, so it is realistic in shape but
 not in volume — a real queue buries the decisive event among thousands, and
 nothing here trains that. There is no timing pressure, and no cost to escalating.

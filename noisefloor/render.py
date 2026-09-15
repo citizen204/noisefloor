@@ -97,6 +97,7 @@ SOURCE_HELP = {
     "cloudtrail": "AWS control-plane API calls",
     "auth": "Linux authentication syslog",
     "edr": "endpoint agent detections and file events",
+    "m365": "Microsoft 365 mailbox and Exchange audit events",
 }
 
 
